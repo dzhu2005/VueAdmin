@@ -40,7 +40,8 @@
           <div>
             <!-- Close Button -->
             <template v-if="showCloseButton">
-              <feather-icon icon="XIcon" class="m-0 cursor-pointer" @click="$store.commit('TOGGLE_IS_VERTICAL_NAV_MENU_ACTIVE', false)" />
+              <feather-icon icon="XIcon" class="m-0 cursor-pointer" 
+              @click="$store.commit('TOGGLE_IS_VERTICAL_NAV_MENU_ACTIVE', false)" />
             </template>
 
             <!-- Toggle Buttons -->
